@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}

@@ -11,13 +11,12 @@ submitbtn.addEventListener('click', async () => {
         alert('enter both values')
         return ;
     }
-    console.log(displayText, delay)
 
     document.getElementById('text').value = '';
     document.getElementById('delay').value = ''; 
 
 
-    await callingfunc(delay*1000);
+    await callingfunc(delay);
     output.innerText = displayText;
 
 })
