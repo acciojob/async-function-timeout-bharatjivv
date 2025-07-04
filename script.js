@@ -16,7 +16,6 @@ submitbtn.addEventListener('click', async () => {
     document.getElementById('text').value = '';
     document.getElementById('delay').value = ''; 
 
-    output.innerText = 'waiting...'
 
     await callingfunc(delay*1000);
     output.innerText = displayText;
